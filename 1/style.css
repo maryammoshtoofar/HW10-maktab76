@@ -1,0 +1,39 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+  display: none;
+}
+.lock:hover .icon-lock {
+  display: inline;
+}
+
+h6 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.3);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+h6 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.main-text {
+  color: #4f4f4f;
+}
+
+.second-text {
+  color: #868686;
+}
+
+::placeholder {
+  color: #949494 !important;
+}
+
+.small-text {
+  font-size: 14px !important;
+}
