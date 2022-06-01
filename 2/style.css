@@ -1,0 +1,19 @@
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+  display: none;
+}
+.lock:hover .icon-lock {
+  display: inline;
+}
+
+.res-icons-bg {
+  background-color: #d3d4d6;
+}
+
+.res-icons-text {
+  color: #777a80;
+}
+
+.red-bg {
+  background-color: #efe3e7;
+}

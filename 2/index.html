@@ -10,13 +10,479 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/e0f9ab2f02.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Overview</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid m-0">
+      <!-- Overview -->
+      <div
+        class="row bg-light text-secondary py-3 border-0 border-bottom border-danger border-2"
+      >
+        <div class="col d-flex align-items-center">
+          <a href="#" class="lock text-decoration-none mx-2">
+            <i
+              class="icon-unlock fa-solid fa-arrow-left bg-light res-icons-text"
+            >
+            </i>
+            <i class="icon-lock fa-solid fa-arrow-left res-icons-text fs-5">
+            </i>
+          </a>
+          Overview Page
+        </div>
+        <!-- Responsive icons -->
+        <div class="col d-none d-md-flex justify-content-center">
+          <a href="#" class="lock text-decoration-none fs-4 me-3">
+            <i
+              class="icon-unlock bi bi-laptop bg-light res-icons-text rounded-circle px-2"
+            >
+            </i>
+            <i
+              class="icon-lock bi bi-laptop res-icons-bg res-icons-text rounded-circle px-2 py-1"
+            >
+            </i>
+          </a>
+          <a href="#" class="lock text-decoration-none fs-4 me-3">
+            <i
+              class="icon-unlock bi bi-tablet-landscape bg-light res-icons-text rounded-circle px-2"
+            >
+            </i>
+            <i
+              class="icon-lock bi bi-tablet-landscape res-icons-bg res-icons-text rounded-circle px-2 py-1"
+            >
+            </i>
+          </a>
+          <a href="#" class="lock text-decoration-none fs-4 me-3">
+            <i
+              class="icon-unlock bi bi-phone bg-light res-icons-text rounded-circle px-2"
+            >
+            </i>
+            <i
+              class="icon-lock bi bi-phone res-icons-bg res-icons-text rounded-circle px-2 py-1"
+            >
+            </i>
+          </a>
+        </div>
+        <!-- Github and Download Button -->
+        <div class="col d-flex justify-content-end align-items-center">
+          <a href="#" class="lock text-decoration-none mx-2">
+            <i class="icon-unlock fa-brands fa-github text-dark ms-3 fs-3"> </i>
+            <i
+              class="icon-lock fa-brands fa-github text-light bg-dark rounded-circle ms-3 border-0 fs-3"
+            >
+            </i>
+          </a>
+          <button
+            type="button"
+            class="btn text-danger red-bg ms-3 d-none d-lg-block"
+          >
+            <i class="fa-solid fa-download"></i>
+            Free Download
+          </button>
+          <a href="#" class="lock text-decoration-none mx-2">
+            <i
+              class="icon-unlock fa-solid fa-xmark bg-light res-icons-text ms-3"
+            >
+            </i>
+            <i class="icon-lock fa-solid fa-xmark res-icons-text fs-5 ms-3">
+            </i>
+          </a>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <div class="row bg-dark text-light">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Get Bootstrap</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Headings -->
+          <div class="d-flex flex-column align-items-center py-5">
+            <div class="col-lg-6">
+              <h1 class="display-4 fw-semibold text-center px-5">
+                Present your business in a whole new way
+              </h1>
+              <p class="text-secondary text-center px-5">
+                Quickly design and customize responsive mobile-first sites with
+                Bootstrap, the world's most popular front-end open source
+                toolkit!
+              </p>
+            </div>
+            <div
+              class="container d-flex flex-column justify-content-center flex-lg-row"
+            >
+              <a
+                class="btn btn-primary border border-primary px-4 mb-3 mb-lg-0 me-lg-2"
+                href="#"
+                role="button"
+                >Get Started</a
+              >
+
+              <a class="btn btn-outline-light px-4 mb-0" href="#" role="button"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cards -->
+      <div class="row my-5 d-flex flex-column flex-md-row">
+        <div class="col my-5">
+          <div class="card me-auto m-lg-auto border-0 ps-5 ps-md-0 w-75">
+            <i
+              class="bi bi-aspect-ratio h1 bg-primary text-light me-auto p-3 rounded"
+            ></i>
+            <div class="card-body p-0">
+              <h5 class="card-title fw-bold mt-3">Featured title</h5>
+              <p class="card-text">
+                Paragraph of text beneath the heading to explain the heading.
+                We'll add onto it with another sentence and probably just keep
+                going until we run out of words.
+              </p>
+              <a href="#" class="text-decoration-none"
+                >Call to action <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col my-5">
+          <div class="card me-auto m-lg-auto border-0 ps-5 ps-md-0 w-75">
+            <i
+              class="bi bi-building h1 bg-primary text-light me-auto p-3 rounded"
+            ></i>
+            <div class="card-body p-0">
+              <h5 class="card-title fw-bold mt-3">Featured title</h5>
+              <p class="card-text">
+                Paragraph of text beneath the heading to explain the heading.
+                We'll add onto it with another sentence and probably just keep
+                going until we run out of words.
+              </p>
+              <a href="#" class="text-decoration-none"
+                >Call to action <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col my-5">
+          <div class="card me-auto m-lg-auto border-0 ps-5 ps-md-0 w-75">
+            <i
+              class="bi bi-toggles2 h1 bg-primary text-light me-auto p-3 rounded"
+            ></i>
+            <div class="card-body p-0">
+              <h5 class="card-title fw-bold mt-3">Featured title</h5>
+              <p class="card-text">
+                Paragraph of text beneath the heading to explain the heading.
+                We'll add onto it with another sentence and probably just keep
+                going until we run out of words.
+              </p>
+              <a href="#" class="text-decoration-none"
+                >Call to action <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Payments -->
+      <div class="row bg-light">
+        <div class="col d-flex flex-column align-items-center mt-5">
+          <h2>Pay as you grow</h2>
+          <p class="text-secondary">With our no hassle pricing plans</p>
+        </div>
+      </div>
+      <div class="row bg-light d-flex flex-column flex-lg-row p-5">
+        <div class="col bg-white border border-muted p-5 mb-5 me-lg-5">
+          <span class="text-secondary fw-bold">FREE</span>
+          <h3 class="display-3 fw-bold">
+            $0<span class="text-secondary fs-5 fw-lighter"> /mo.</span>
+          </h3>
+          <div class="d-flex flex-column">
+            <p class="fw-bold">
+              <i class="bi bi-check-lg text-primary"></i>
+              1 users
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              5GB storage
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Unlimited public projects
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Community access
+            </p>
+            <p class="text-muted">
+              <i class="bi bi-x-lg"></i>
+              Unlimited private projects
+            </p>
+            <p class="text-muted">
+              <i class="bi bi-x-lg"></i>
+              Dedicated support
+            </p>
+            <p class="text-muted">
+              <i class="bi bi-x-lg"></i>
+              Free linked domain
+            </p>
+            <p class="text-muted">
+              <i class="bi bi-x-lg"></i>
+              Monthly status reports
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+              Choose plan
+            </button>
+          </div>
+        </div>
+        <div class="col bg-white border border-muted p-5 mb-5 me-lg-5">
+          <span class="fw-bold"
+            ><i class="bi bi-star-fill text-warning"></i> PRO</span
+          >
+          <h3 class="display-3 fw-bold">
+            $9<span class="text-secondary fs-5 fw-lighter"> /mo.</span>
+          </h3>
+          <div class="d-flex flex-column">
+            <p class="fw-bold">
+              <i class="bi bi-check-lg text-primary"></i>
+              5 users
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              5GB storage
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Unlimited public projects
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Community access
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Unlimited private projects
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Dedicated support
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Free linked domain
+            </p>
+            <p class="text-muted">
+              <i class="bi bi-x-lg"></i>
+              Monthly status reports
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+              Choose plan
+            </button>
+          </div>
+        </div>
+        <div class="col bg-white border border-muted p-5 mb-5 me-lg-5">
+          <span class="text-secondary fw-bold">ENTERPRISE</span>
+          <h3 class="display-3 fw-bold">
+            $49<span class="text-secondary fs-5 fw-lighter"> /mo.</span>
+          </h3>
+          <div class="d-flex flex-column">
+            <p class="fw-bold">
+              <i class="bi bi-check-lg text-primary"></i>
+              Unlimited users
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              5GB storage
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Unlimited public projects
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Community access
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              <span class="fw-bold">Unlimited</span> private projects
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Dedicated support
+            </p>
+            <p>
+              <i class="bi bi-check-lg text-primary"></i>
+              Free linked domain
+            </p>
+            <p class="text-muted">
+              <i class="bi bi-check-lg text-primary"></i>
+              Monthly status reports
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+              Choose plan
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonials -->
+
+      <div class="row bg-white">
+        <div class="col d-flex flex-column align-items-center mt-5">
+          <h2 class="fw-bold">Customer testimonials</h2>
+          <p class="text-secondary">Our customers love working with us</p>
+        </div>
+        <div class="row d-flex flex-column pe-0 align-items-center">
+          <div class="col col-md-6">
+            <div class="card mb-3">
+              <div class="row">
+                <div class="col-3 mt-3 pt-2">
+                  <i
+                    class="bi bi-chat-right-quote-fill h1 text-primary ms-5"
+                  ></i>
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <span class="card-text">
+                      Thank you for putting together such a great product. We
+                      loved working with you and the whole team, and we will be
+                      recommending you to others!</span
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">-Client Name, Location</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6">
+            <div class="card mb-3">
+              <div class="row">
+                <div class="col-3 mt-3 pt-2">
+                  <i
+                    class="bi bi-chat-right-quote-fill h1 text-primary ms-5"
+                  ></i>
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <span class="card-text">
+                      The whole team was a huge help with putting things
+                      together for our company. We will be hiring again in the
+                      near future for additional worlk!</span
+                    >
+                    <p class="card-text">
+                      <small class="text-muted">-Client Name, Location</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="row bg-light m-0">
+          <div class="col-md-4 m-auto">
+            <div class="col d-flex flex-column align-items-center mt-5">
+              <i
+                class="bi bi-envelope h1 bg-primary text-light p-3 rounded"
+              ></i>
+              <h2 class="fw-bold">Get in touch</h2>
+              <p class="text-secondary">We'd love to hear from you</p>
+            </div>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                  aria-label="Full Name"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Phone Number"
+                  aria-label="Phone Number"
+                  aria-describedby="basic-addon3"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" aria-label="With textarea">
+                Message...</textarea
+                >
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-primary w-100">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid p-0">
+      <div class="bg-dark p-3">
+        <p class="text-light m-0 fw-light text-center">
+          <small
+            >Copyright <i class="fa-regular fa-copyright"></i> Your Website
+            2020</small
+          >
+        </p>
+      </div>
+    </div>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
-  </head>
-  <body></body>
+  </body>
 </html>
